@@ -1,5 +1,4 @@
 import React from "react";
-
 function Cartitem({
   Delete_cartItem,
   Qty,
@@ -12,6 +11,7 @@ function Cartitem({
   return (
     <div className="flex flex-col gap-8 sm:flex-row items-center justify-between border-b py-4">
       <div className="flex items-center gap-4">
+        
         <img
           src={img}
           alt="Cake"

@@ -63,6 +63,7 @@ function Cakes() {
             name={cake.name}
             price={cake.price}
             Qty={cake.Qty}
+            loading="lazy"
             data-category={cake.category}
             AddTocart={() => addToCart(cake)}
           />

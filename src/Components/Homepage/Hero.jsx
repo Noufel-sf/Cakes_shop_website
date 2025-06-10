@@ -90,6 +90,7 @@ function Hero() {
               img={cake.img}
               name={cake.name}
               price={cake.price}
+              loading="lazy"
               Qty={cake.Qty}
               AddTocart={() => addToCart(cake)}
               data-category={cake.category}

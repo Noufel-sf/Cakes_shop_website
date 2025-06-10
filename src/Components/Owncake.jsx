@@ -105,6 +105,7 @@ function Owncake() {
               name={cake.name}
               price={cake.price}
               Qty={cake.Qty}
+              loading="lazy"
               AddTocart={() => addToCart(cake)}
               data-category={cake.category}
               
